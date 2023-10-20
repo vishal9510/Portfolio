@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img</title>
+</head>
+<body>
+    <h3>Product Form</h3>
+    <form action="#" name="iform" enctype="multipart/form-data">
+        <!-- dispaly data table -->
+        <input type="hidden" id="uid" name="uid" value="">
+
+        <!-- update img -->
+        <input type="hidden" id="imgupdate" name="imgupdate" value="">
+
+        <!-- dispaly category -->
+        <label>CATEGORY</label>
+        <select name="catid" id="catid">
+            <option value="">select category</option>
+        </select><br><br>
+        
+        <!-- insert data -->
+        <label> Product Name:</label>
+        <input type="text" name="pname" id="pname"><br><br>
+
+        <label> Product Price:</label>
+        <input type="text" name="price" id="price"><br><br>
+
+        <label> Product img:</label>
+        <input type="file" name="pimg" id="pimg"><br><br>
+
+        <button type="button" id="save-btn2">SAVE</button>
+
+    </form>
+    <img src="" id="img1">
+    <table id="tabid" border="1"></table>
+    <script src="../JS/img.js"></script>
+</body>
+</html>
