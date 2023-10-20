@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorlib</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row align-items-center pt-5 pb-5 oswald d-none d-lg-flex">
+            <div class="col-lg-3  col-md-6">
+                <img src="images/logo.png.webp" alt="" height="38px">
+            </div>
+            <div class="col-lg-3  col-md-6 d-flex align-items-center">
+                <span><i class="fa-solid fa-location-dot fs-1 icon-color"></i></span>
+                <div class=" ps-2">
+                    <span class="h4 d-block fw-bold">San Francisco</span>
+                    <span class="fs-5 grey">Mountain View, Fake st., CA</span>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 d-flex align-items-center">
+                <span><i class="fa-solid fa-phone-volume fs-1 icon-color"></i></span>
+                <div class=" ps-2">
+                    <span class="h4 d-block fw-bold">000 209 392 312</span>
+                    <span class="fs-5 grey">Toll free</span>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 d-flex align-items-center">
+                <span><i class="fa-solid fa-envelope-open-text fs-1 icon-color"></i></span>
+                <div class=" ps-2">
+                    <span class="h4 d-block fw-bold">info@gmail.com</span>
+                    <span class="fs-5 grey">Gournadi, 1230 Bariasl</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange container-fluid position-sticky top-0"
+        style="z-index: 3;">
+        <div class="container pb-2 pt-2">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5 ">
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-black fw-bold " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-white fw-bold" href="#">ABOUT US</a>
+                    </li>
+
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-white fw-bold " href="#">OUR PROJECT</a>
+                    </li>
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-white fw-bold " aria-current="page" href="#">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-white fw-bold " href="#">BLOG</a>
+                    </li>
+
+                    <li class="nav-item hv">
+                        <a class="nav-link fs-5 text-white fw-bold " href="#"> CONTACT</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+    <div class="container-fluid p-0">
+        <div class="">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                        class="active bg-danger" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1500">
+
+                        <div class="fg d-flex justify-content-center align-items-center text-white ">
+                            <p>We Are <strong> Leading </strong> Industry of Engineers</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="fg d-flex justify-content-center align-items-center text-white ">
+                            <p>We Are <strong> Leading </strong> Industry of Engineers</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-orange fs-1 p-5 " aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-orange fs-1 p-5" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- carousel over -->
+
+
+    <!-- what we do -->
+    <div class="container">
+        <div class="row mb-5 justify-content-center text-center mt-5 ">
+            <div class="col-12 oswald mb-5">
+                <h3 class="icon-color">WHAT WE DO</h3>
+                <h2 class="text-black ">We Are <strong>Leading Industry</strong> of </h2>
+                <h2>Engineering. We Love What We Do</h2>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-md-6 border border-1 ps-5">
+                <div class="d-flex justify-content-between oswald">
+                    <div class="mt-3 icon">
+                        <img src="images/man.png" alt="" height="74px" width="74px">
+                    </div>
+                    <span class="grey">01</span>
+                </div>
+                <div class="row oswald mt-5 mb-3">
+                    <h2 class="fw-bold">Professional Team</h2>
+                    <p class="fs-5 pe-5 grey">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 border border-1 ps-5">
+                <div class="d-flex justify-content-between oswald">
+                    <div class="mt-3 icon">
+                        <img src="images/bulid.png" alt="" height="74px" width="74px">
+                    </div>
+                    <span class="grey">02</span>
+                </div>
+                <div class="row oswald mt-5 mb-3">
+                    <h2 class="fw-bold">Great Ideas</h2>
+                    <p class="fs-5 pe-5 grey">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 border border-1 ps-5">
+                <div class="d-flex justify-content-between oswald">
+                    <div class="mt-3 icon">
+                        <img src="images/quality.png" alt="" height="74px" width="74px">
+                    </div>
+                    <span class="grey">03</span>
+                </div>
+                <div class="row oswald mt-5 mb-3">
+                    <h2 class="fw-bold">Quality Building</h2>
+                    <p class="fs-5 pe-5 grey">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3  col-md-6 border border-1 ps-5">
+                <div class="d-flex justify-content-between oswald">
+                    <div class="mt-3 icon">
+                        <img src="images/maping.png" alt="" height="74px" width="74px">
+                    </div>
+                    <span class="grey">04</span>
+                </div>
+                <div class="row oswald mt-5 mb-3">
+                    <h2 class="fw-bold">Quality Works</h2>
+                    <p class="fs-5 pe-5 grey">Gravida sodales condimentum pellen tesq accumsan orci quam sagittis sapie
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- what we do over -->
+
+
+    <!-- ehy choose us -->
+
+    <section class="container-fluid bg-black p-5" style="margin-top: 150px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6  col-sm-12">
+                    <img src="images/about_1.jpg.webp" alt="" height="800px" width="540px" style="margin-top: -80px;">
+                </div>
+                <div class="col-lg-6 col-sm-12 oswald pt-3 pb-5">
+                    <span class="icon-color fs-3">WHY CHOOSE US</span>
+                    <h2 class="text-white mb-4 fs-1">More than <strong>50 year experience</strong> in <br> industry</h2>
+                    <p class="fs-2 grey pe-5">Reprehenderit, odio laboriosam? Blanditiis quae ullam quasi illum minima
+                        nostrum perspiciatis error consequatur sit nulla.</p>
+
+                    <div class="d-flex pt-5">
+                        <img src="images/2015164.png" alt="" height="100px">
+                        <div class="ms-3">
+                            <h2 class="text-white">
+                                Expert in Builings</h2>
+                            <p class="text-white fs-3 oswald">Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex pt-3">
+                        <img src="images/2204028.png" alt="" height="100px">
+                        <div class="ms-3">
+                            <h2 class="text-white">Modern Design</h2>
+                            <p class="text-white fs-3 oswald">Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex pt-4">
+                        <img src="images/3474856.png" alt="" height="100px">
+                        <div class="ms-3">
+                            <h2 class="text-white">Leading In Floor Planning</h2>
+                            <p class="text-white fs-3 oswald">Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- ehy choose us over -->
+
+    <!-- request -->
+    <div class="container pb-5" style="margin-top: 120px;">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12 pe-5" style="margin-bottom: -64px; z-index: -2;">
+                <img src="images/img_transparent.png.webp" alt="" class="float-end ">
+            </div>
+            <div class="col-lg-6 col-sm-12 bg-black ps-5 pt-5">
+                <span class="icon-color fs-3 oswald">GET A QUOTE</span>
+                <h2 class="text-white oswald mb-4 pt-2">Request A <strong>Quote</strong></h2>
+
+
+
+                <div class="row">
+                    <div class="col-md-6 mt-3">
+                        <input type="text" class="bg-black text-white" placeholder="Your name*"
+                            style="border: none; border-bottom: 1px solid grey; width: 250px; outline: none;">
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <input type="text" class="bg-black text-white" placeholder="Phone number"
+                            style="border: none; border-bottom: 1px solid grey; width: 250px; outline: none;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+                        <input type="text" class="bg-black text-white" placeholder="Your email*"
+                            style="border: none; border-bottom: 1px solid grey; width: 250px; outline: none;">
+                    </div>
+                    <div class="col-md-6 mt-4">
+                        <input type="text" class="bg-black text-white" placeholder="Subject"
+                            style="border: none; border-bottom: 1px solid grey; width: 250px; outline: none;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <textarea name="" class="bg-black border-0 border-bottom text-white" id=""
+                            placeholder="Message*" cols="30" rows="7"></textarea>
+                    </div>
+                    <div class="col-md-6 align-self-end">
+
+
+                        <button class="btn bg-orange rounded-0 text-white sg oswald">Send Message</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- request over -->
+
+    <!-- slider -->
+    <div class="conatiner-fluid bg-dark">
+        <div class="container p-5">
+            <div class="row mb-5">
+                <span class="oswald icon-color fs-2 mb-2">OUR PROJECTS</span>
+                <h2 class="text-white oswald mb-4">Explore Our <strong>Recent Projects</strong></h2>
+            </div>
+
+            <div class="row" style="margin-bottom: -140px;">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_1.jpeg" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_2.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_3.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_4.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_1.jpeg" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_2.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_3.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="cv">
+                                <img src="images/works_4.jpg.webp" alt="" class="cv-img">
+                                <div class="vg">
+                                    <div class="text">
+                                        <h3 class="icon-color">OUR PROJECTS</h3>
+                                        <span class="icon-color"> Recent Projects</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="swiper-button-next bg-white p-4"></div>
+                    <div class="swiper-button-prev bg-white p-4"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- slider over -->
+
+
+
+
+    <!-- testimonial -->
+
+    <div class="container " style="margin-top: 300px; margin-bottom: 100px;">
+        <div class="row">
+            <span class="oswald icon-color fs-3 text-center">TESTIMONIAL</span>
+            <span class="text-black oswald fs-1 text-center">What People Says</span>
+
+            <div class="col-lg-6 col-sm-12 mt-5">
+                <img src="images/person_3_sq.jpeg" alt="" height="100px" width="100px" class="rounded-circle mb-3">
+                <p class="fw-bold fs-4 ">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti
+                    iusto molestias, dolore vel fugiat ab placeat ea?”</p>
+                <p class="oswald icon-color fs-3">MATT KEYGEN</p>
+            </div>
+
+
+            <div class="col-lg-6 col-sm-12 mt-5">
+                <img src="images/person_4_sq.jpeg" alt="" height="100px" width="100px" class="rounded-circle mb-3">
+                <p class="fw-bold fs-4 ">“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident deleniti
+                    iusto molestias, dolore vel fugiat ab placeat ea?”</p>
+                <p class="oswald icon-color fs-3">MATT KEYGEN</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial over -->
+
+
+
+    <!-- blog -->
+
+    <div class="container-fluid bg-grey p-5">
+        <div class="container">
+            <div class="row mb-5">
+                <span class="icon-color fs-2 oswald">BLOG</span>
+                <span class="text-black fs-1 oswald">News & Updates</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-8">
+                    <div class="ty mb-4">
+                        <img src="images/hero_1.jpg.webp" alt="" height="300px" class="img-fluid fd">
+                    </div>
+
+                    <span class="text-black fs-3 ">Top Companies That Are Best In Industrial Business</span>
+                    <p class="grey">Posted by <span class="text-danger">Admin</span> In <span
+                            class="text-danger">News</span></p>
+                </div>
+                <div class="col-lg-4 col-sm-8">
+                    <div class="ty mb-4">
+                        <img src="images/hero_1.jpg.webp" alt="" height="300px" class="img-fluid fd">
+                    </div>
+
+                    <span class="text-black fs-3 ">Top Companies That Are Best In Industrial Business</span>
+                    <p class="grey">Posted by <span class="text-danger">Admin</span> In <span
+                            class="text-danger">News</span></p>
+                </div>
+                <div class="col-lg-4 col-sm-8">
+                    <div class="ty mb-4">
+                        <img src="images/hero_1.jpg.webp" alt="" height="300px" class="img-fluid fd">
+                    </div>
+
+                    <span class="text-black fs-3 ">Top Companies That Are Best In Industrial Business</span>
+                    <p class="grey">Posted by <span class="text-danger">Admin</span> In <span
+                            class="text-danger">News</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog over -->
+
+    <!-- subscribe -->
+
+    <div class="container-fluid bg-orange p-5">
+        <div class="container">
+            <div class="row oswald">
+                <div class="col-lg-6 col-sm-12 ">
+                    <p class="text-white oswald fs-2">SUBSCRIBE TO NEWSLETTER</p>
+                    <span class="text-white fs-4 pe-5 oswald ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nesciunt,
+                        reprehenderit!</span>
+                </div>
+                <div class="col-lg-6 col-sm-12  d-flex align-items-end mb-4">
+                    <input type="text" class="border border-2 border-white p-2 bg-transparent w-75"
+                        style="outline: none;">
+                    <button class="sub">SUBSCRIBE</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- subscribe over -->
+
+
+    <div class="container-fluid bg-black pt-5 pb-5">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-6 col-lg-3">
+                    <img src="images/logo2.png.webp" alt="">
+                    <p class="fs-5 mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+                        facilis illo,</p>
+                    <span class="learn">learn more</span>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <p class="fs-5 fw-bold ft">OUR COMPANY</p>
+                    <p class="fo">About</p>
+                    <p class="fo">News</p>
+                    <p class="fo">Services</p>
+                    <p class="fo"> Our Team</p>
+                    <p class="fo"> Careers</p>
+                    <p class="fo"> Projects</p>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <p class="fs-5 fw-bold ft"> OUR SERVICES</p>
+                    <p class="fo">Industrial</p>
+                    <p class="fo">Construction</p>
+                    <p class="fo">Remodeling</p>
+
+                </div>
+                <div class="col-6 col-lg-3">
+                    <p class="fs-5 fw-bold ft">CONTACT</p>
+                    <p class="fo">Help Center</p>
+                    <p class="fo">Support Community</p>
+                    <p class="fo">Services</p>
+                    <p class="fo"> Press</p>
+                    <p class="fo"> FAQ</p>
+                    <p class="fo"> Our Partner</p>
+                </div>
+            </div>
+            <div class="row text-center pt-5">
+                <p class="text-white fs-5">Copyright ©2023 All rights reserved | This template is made with ❤️ by
+                    Colorlib</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            autoplay: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>

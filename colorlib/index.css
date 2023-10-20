@@ -1,0 +1,181 @@
+.icon-color {
+    color: #ff5e15;
+}
+
+.bg-orange {
+    background-color: #ff5e15;
+}
+.bg-grey{
+    background-color: #eeeeee;
+}
+.f-40 {
+    font-size: 40px;
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(font-oswald/Oswald-Light.ttf);
+}
+
+.oswald {
+    font-family: 'oswald';
+}
+
+.grey {
+    color: #808080;
+}
+
+.hv:hover .a {
+    color: black;
+    font-size: large;
+}
+
+.fg {
+    background-image: url(images/hero_1.jpg.webp);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-blend-mode: multiply;
+    font-size: 60px;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon::before {
+    content: "";
+    height: 74px;
+    width: 74px;
+    background-color: #ff5e15;
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    z-index: -1;
+    right: 10px;
+    position: absolute;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 20px;
+
+}
+
+.textarea::placeholder {
+    color: white;
+
+}
+
+.sg {
+    width: 250px;
+    letter-spacing: 3px;
+}
+
+.cv:hover .cv-img {
+    scale: 1.1;
+    transition: 1s;
+
+}
+
+.cv:hover .vg {
+    opacity: 1;
+
+}
+
+.cv:hover .text {
+    transform: translateY(0px);
+}
+
+.cv {
+    position: relative;
+    overflow: hidden;
+    /* height: 500px;
+    width: 500px; */
+}
+
+.vg {
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-items: end; */
+    background-color: #00000079;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.text {
+    transform: translateY(60px);
+    transition: 1s;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-pagination span {
+    background-color: aquamarine;
+    height: 25px;
+    width: 20px;
+    color: #fff;
+}
+
+.ty:hover .fd {
+    scale: 1.1;
+    transition: 1s;
+}
+
+.ty {
+    overflow: hidden;
+}
+
+.sub {
+    height: 45px;
+    width: 150px;
+    letter-spacing: 6px;
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+.learn:hover {
+    color: #ff5e15;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.ft {
+    border-bottom: 4px solid #ff5e15;
+    width: fit-content;
+}
+
+.fo:hover {
+    color: #ff5e15;
+    text-decoration: underline;
+    transition: 0.5s;
+    width: fit-content;
+}
